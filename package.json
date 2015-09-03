@@ -1,0 +1,33 @@
+{
+  "name": "typescript-module-merger",
+  "version": "0.1.0",
+  "description": "Post-processor for TypeScript-compiled JS that merges the bodies of modules with the same namespace",
+  "readme": "README.md",
+  "main": "src/ts-module-merger.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "bin": {
+    "ts-merge": "bin/ts-merge"
+  },
+  "keywords": [
+    "TypeScript",
+    "compiler",
+    "language",
+    "JS",
+    "JavaScript",
+    "esprima",
+    "escodegen",
+    "post-processing"
+  ],
+  "author": "Till Schneidereit",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tschneidereit/typescript-module-merger.git"
+  },
+  "dependencies": {
+    "esprima": "2.6",
+    "escodegen": "1.6"
+  }
+}
